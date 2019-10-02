@@ -1,0 +1,117 @@
+
+
+
+/****BASE STYLES****/
+
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+h4, h3, header h1, nav ul li a, footer p {
+	text-transform: uppercase;
+}
+
+.color-highlight{
+  color: #77a466;
+}
+
+img {
+  border: 4px solid #77a466;
+}
+
+ul {
+  list-style: none;
+}
+
+
+/****GRID STYLES****/
+.full-width{
+	width: 1200px;
+	margin: 0 auto; /*For center alignment*/
+}
+
+.half-width{
+	width:600px;
+	float:left;
+}
+
+.third-width{
+	width:375px;
+	float:left;
+	height: 200px;
+}
+
+/*** HEADER STYLES ***/
+
+
+nav {
+    float: right;
+    padding: 15px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+	font-weight: bolder;
+    color: #77a466;
+    padding-left: 10px;
+    line-height: 23px;
+}
+
+/*** WELCOME STYLES ****/
+
+#welcome-message {
+line-height: 25px;
+}
+
+
+/*******Bottom Section********/
+
+#awesome-reviews {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	padding-left:10px;
+}
+
+#bottom-section {
+	border-top: 1px solid #eee;
+}
+
+#awesome-reviews p {
+  font-size: 16px;
+
+}
+#contact-us h4 {
+  font-size: 16px;
+}
+
+#contact-us {
+  padding-left: 15px;
+}
+
+/*** FOOTER STYLES *****/
+
+footer {
+    clear:both;
+}
+
+footer span {
+    font-family: 'Wisdom Script', cursive;
+    text-transform: lowercase;
+	font-style: italic;
+}
+
+footer p {
+  text-align: center;
+  padding-top:30px;
+  border-top: 3px solid #eee;
+  font-weight: 800;
+}

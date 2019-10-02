@@ -1,0 +1,157 @@
+/****BASE STYLES****/
+
+body {
+	font-family: 'Manjari', sans-serif;
+
+}
+
+#wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 5%;
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%; /** fill the width of their parent container*/
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+}
+/****GRID STYLES****/
+
+
+/***HEADER STYLES***/
+
+header {
+    height: 400px;
+    background: url('../img/header-image.jpg');
+    background-size: cover;
+}
+
+header {
+	float: left; /*for desktop style*/
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%; /*because the header is floated it has no width so this fixes that*/
+}
+
+#logo {
+	text-align:center;
+	margin: 0;
+
+
+}
+h1 {
+
+	margin: 15px 0; /*15px for top and bottom*/
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: 800;
+}
+
+h2 span {
+	color: #f5b70f;
+}
+
+#intro {
+	padding-left: 30px;
+	letter-spacing: 2px;
+	padding-top: 50px;
+
+
+
+}
+
+/****NAVIGATION******/
+
+nav {
+	text-align:center;
+	padding: 15px 25px;
+	margin: 20px 0 0; /* top 20px left, right & bottom 0*/
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	padding: 15px 10px;
+	font-weight: 800;
+}
+
+/*****FOOTER******/
+
+footer {
+	clear:both; /*cleared on both left and right sides*/
+	text-align: center;
+	padding-top: 50px;
+	color: #000;
+}
+
+h2 a {
+	color:#f5b70f;
+}
+
+.social-icon {
+  	width: 20px;
+  	margin: 0 5px; /*right left 5px*/
+}
+
+/***PROFILE PHOTO*****/
+
+#profile-photo{
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+}
+
+/*****ABOUT ME********/
+
+.primary, .secondary{
+  line-height: 30px;
+}
+/*******MY PROJECTS********/
+
+
+#project-title {
+	text-align: center;
+	color: #f5b70f;
+}
+
+#projects {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+/* nav background on mobile*/
+nav {
+	background-color: #f5b70f;
+}
+
+/*links*/
+
+a {
+	color:#000;
+}
+
+/*nav links*/
+nav a, nav a:visited {
+	color: #fff;
+}
+
+/*selected nav links*/
+nav a.selected, nav a:hover, p a:hover {
+	color: grey;
+}

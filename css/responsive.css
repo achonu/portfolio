@@ -1,0 +1,64 @@
+@media screen and (min-width: 480px){ /*if the screen width is larger than 480 then apply the styles*/
+
+/** TWO COLUMN LAYOUT**/
+ .primary {
+   width: 50%;
+   float: left;
+ }
+
+ .secondary {
+   width: 40%;
+   float:right;
+ }
+
+ #project-title {
+   clear:both;
+ }
+
+
+}
+
+@media screen and (min-width: 660px){ /*if the screen width is larger than 660px then apply the styles*/
+
+  nav {
+    background:none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+
+  }
+
+  nav a, nav a:visited {
+      color: #f5b70f;
+      font-size: 22px;
+  }
+
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+
+}
+
+#intro {
+  	padding-top:150px;
+    font-size: 50px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+.primary, .secondary{
+  font-size: 21px;
+  line-height: 40px;
+}
+
+#project-title {
+  padding-top:50px;
+  letter-spacing: 5px;
+}
+
+}
